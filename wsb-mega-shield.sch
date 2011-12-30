@@ -1,0 +1,507 @@
+EESchema Schematic File Version 2  date Fri 30 Dec 2011 10:55:18 AM EST
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:arduino_shieldsNCL
+LIBS:SparkFun
+EELAYER 43  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "30 dec 2011"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	6350 2450 7100 2450
+Wire Wire Line
+	7100 2950 6600 2950
+Wire Wire Line
+	7100 2750 6600 2750
+Wire Wire Line
+	3300 3500 3000 3500
+Wire Wire Line
+	3300 2900 3000 2900
+Wire Wire Line
+	3300 3000 2900 3000
+Wire Wire Line
+	2900 3000 2900 3100
+Wire Wire Line
+	2900 3100 2200 3100
+Wire Wire Line
+	3300 2650 3050 2650
+Wire Wire Line
+	3300 2450 3050 2450
+Wire Wire Line
+	2200 2350 2900 2350
+Wire Wire Line
+	6750 3150 7100 3150
+Wire Wire Line
+	9000 1850 9500 1850
+Wire Wire Line
+	9000 3350 9400 3350
+Wire Wire Line
+	7100 3850 6800 3850
+Wire Wire Line
+	9000 3950 9400 3950
+Wire Wire Line
+	9000 3650 9400 3650
+Connection ~ 6650 2350
+Wire Wire Line
+	7100 2350 6650 2350
+Wire Wire Line
+	9300 1750 9300 1650
+Wire Wire Line
+	9300 1650 9000 1650
+Wire Wire Line
+	2600 4100 2600 4000
+Wire Wire Line
+	2600 4000 2200 4000
+Connection ~ 2600 3300
+Wire Wire Line
+	2350 3500 2200 3500
+Wire Wire Line
+	2200 3300 2600 3300
+Wire Wire Line
+	2200 3400 2350 3400
+Wire Wire Line
+	2350 3600 2200 3600
+Wire Wire Line
+	2600 3300 2600 3350
+Wire Wire Line
+	2600 2600 2600 2550
+Wire Wire Line
+	2200 1650 2550 1650
+Connection ~ 2600 1750
+Wire Wire Line
+	2600 1800 2600 1450
+Wire Wire Line
+	2600 1450 2200 1450
+Wire Wire Line
+	2350 1950 2200 1950
+Wire Wire Line
+	2600 1750 2200 1750
+Wire Wire Line
+	2200 1850 2350 1850
+Wire Wire Line
+	2350 2050 2200 2050
+Wire Wire Line
+	2200 1550 2550 1550
+Wire Wire Line
+	2200 1350 2550 1350
+Wire Wire Line
+	2350 2850 2200 2850
+Wire Wire Line
+	2200 2650 2350 2650
+Wire Wire Line
+	2600 2550 2200 2550
+Wire Wire Line
+	2350 2750 2200 2750
+Connection ~ 2600 2550
+Wire Wire Line
+	2200 4100 2350 4100
+Wire Wire Line
+	2200 3900 2600 3900
+Wire Wire Line
+	7100 2250 6650 2250
+Wire Wire Line
+	6650 2250 6650 2400
+Wire Wire Line
+	9000 3550 9400 3550
+Wire Wire Line
+	9000 4050 9400 4050
+Wire Wire Line
+	7100 3750 6800 3750
+Wire Wire Line
+	9000 3450 9400 3450
+Wire Wire Line
+	7100 3050 6750 3050
+Wire Wire Line
+	2900 2350 2900 2150
+Wire Wire Line
+	2900 2150 3300 2150
+Wire Wire Line
+	2200 2450 2900 2450
+Wire Wire Line
+	2900 2450 2900 2550
+Wire Wire Line
+	2900 2550 3300 2550
+Wire Wire Line
+	3300 2050 3050 2050
+Wire Wire Line
+	3300 2250 3050 2250
+Wire Wire Line
+	2200 3200 2900 3200
+Wire Wire Line
+	2900 3200 2900 3400
+Wire Wire Line
+	2900 3400 3300 3400
+Wire Wire Line
+	3300 3100 3000 3100
+Wire Wire Line
+	3300 3300 3000 3300
+Wire Wire Line
+	7100 2650 6600 2650
+Wire Wire Line
+	7100 2850 6600 2850
+Wire Wire Line
+	6250 2450 5800 2450
+$Comp
+L JUMPER-2SMD-NO JP1
+U 1 1 4EFDDE62
+P 6250 2350
+F 0 "JP1" V 6165 2350 50  0000 L BNN
+F 1 "JUMPER-2SMD-NO" V 6440 2350 50  0000 L BNN
+F 2 "SparkFun-SJ_2S-NO" H 6250 2500 50  0001 C CNN
+	1    6250 2350
+	1    0    0    -1  
+$EndComp
+Text Label 6600 2850 0    60   ~ 0
+ET1RXOLD
+Text Label 6600 2950 0    60   ~ 0
+ET1TXOLD
+Text Label 6600 2750 0    60   ~ 0
+ET2TXOLD
+Text Label 6600 2650 0    60   ~ 0
+ET2RXOLD
+Text Label 3000 3500 0    60   ~ 0
+ET2TXNEW
+Text Label 3000 3300 0    60   ~ 0
+ET2TXOLD
+Text Label 3000 3100 0    60   ~ 0
+ET2RXNEW
+Text Label 3000 2900 0    60   ~ 0
+ET2RXOLD
+$Comp
+L JUMPER-3SMD JP?
+U 1 1 4EFDDD88
+P 3400 3300
+AR Path="/4EFDDD34" Ref="JP?"  Part="1" 
+AR Path="/4EFDDD82" Ref="JP?"  Part="1" 
+AR Path="/4EFDDD88" Ref="JP5"  Part="1" 
+F 0 "JP5" V 3315 3300 50  0000 L BNN
+F 1 "JUMPER-3SMD" V 3690 3300 50  0000 L BNN
+F 2 "SparkFun-SJ_3" H 3400 3450 50  0001 C CNN
+	1    3400 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L JUMPER-3SMD JP?
+U 1 1 4EFDDD82
+P 3400 2900
+AR Path="/4EFDDD34" Ref="JP?"  Part="1" 
+AR Path="/4EFDDD82" Ref="JP4"  Part="1" 
+F 0 "JP4" V 3315 2900 50  0000 L BNN
+F 1 "JUMPER-3SMD" V 3690 2900 50  0000 L BNN
+F 2 "SparkFun-SJ_3" H 3400 3050 50  0001 C CNN
+	1    3400 2900
+	0    1    1    0   
+$EndComp
+Text Label 3050 2650 0    60   ~ 0
+ET1TXNEW
+Text Label 3050 2450 0    60   ~ 0
+ET1TXOLD
+Text Label 3050 2250 0    60   ~ 0
+ET1RXNEW
+Text Label 3050 2050 0    60   ~ 0
+ET1RXOLD
+$Comp
+L JUMPER-3SMD JP?
+U 1 1 4EFDDD42
+P 3400 2050
+AR Path="/4EFDDD34" Ref="JP?"  Part="1" 
+AR Path="/4EFDDD42" Ref="JP2"  Part="1" 
+F 0 "JP2" V 3315 2050 50  0000 L BNN
+F 1 "JUMPER-3SMD" V 3690 2050 50  0000 L BNN
+F 2 "SparkFun-SJ_3" H 3400 2200 50  0001 C CNN
+	1    3400 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L JUMPER-3SMD JP3
+U 1 1 4EFDDD34
+P 3400 2450
+F 0 "JP3" V 3315 2450 50  0000 L BNN
+F 1 "JUMPER-3SMD" V 3690 2450 50  0000 L BNN
+F 2 "SparkFun-SJ_3" H 3400 2600 50  0001 C CNN
+	1    3400 2450
+	0    1    1    0   
+$EndComp
+Text Notes 4650 3100 0    60   ~ 0
+Maintain compatibility with Arduino boards
+Text Label 6750 3150 0    60   ~ 0
+WSSCL
+Text Label 6750 3050 0    60   ~ 0
+WSSDA
+Text Label 9500 1850 0    60   ~ 0
+STIO
+Text Notes 4650 3600 0    60   ~ 0
+Pins A10 and A11 are SDA/SCL on Seeeduino Mega
+Text Notes 9100 3100 0    60   ~ 0
+UART0 and UART1 reserved
+Text Label 9400 3350 0    60   ~ 0
+ET2RXNEW
+Text Label 9400 3450 0    60   ~ 0
+ET2TXNEW
+Text Label 9400 3550 0    60   ~ 0
+ET1RXNEW
+Text Label 9400 3650 0    60   ~ 0
+ET1TXNEW
+Text Label 9400 4050 0    60   ~ 0
+WSSCL
+Text Label 9400 3950 0    60   ~ 0
+WSSDA
+Text Label 6800 3850 0    60   ~ 0
+WSSDA
+Text Label 6800 3750 0    60   ~ 0
+WSSCL
+Text Notes 4650 2000 0    60   ~ 0
+Option to power Arduino through White Star Bus.\nNot providing 3.3v and 5v due to issues with\nbackfeeding Arduino V_reg.  Could cause flame.
+$Comp
+L +12V #PWR01
+U 1 1 4EFDD7B2
+P 5800 2450
+F 0 "#PWR01" H 5800 2400 20  0001 C CNN
+F 1 "+12V" H 5800 2550 30  0000 C CNN
+	1    5800 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 4EFDD765
+P 6650 2400
+F 0 "#PWR02" H 6650 2400 30  0001 C CNN
+F 1 "GND" H 6650 2330 30  0001 C CNN
+	1    6650 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 4EFDD75D
+P 9300 1750
+F 0 "#PWR03" H 9300 1750 30  0001 C CNN
+F 1 "GND" H 9300 1680 30  0001 C CNN
+	1    9300 1750
+	1    0    0    -1  
+$EndComp
+Text Label 2600 3900 0    60   ~ 0
+STIO
+Text Label 2600 3200 0    60   ~ 0
+ET2TX
+Text Label 2600 3100 0    60   ~ 0
+ET2RX
+Text Label 2600 2450 0    60   ~ 0
+ET1TX
+Text Label 2600 2350 0    60   ~ 0
+ET1RX
+$Comp
+L GND #PWR04
+U 1 1 4EFDD5B0
+P 2600 4100
+F 0 "#PWR04" H 2600 4100 30  0001 C CNN
+F 1 "GND" H 2600 4030 30  0001 C CNN
+	1    2600 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12V #PWR05
+U 1 1 4EFDD5A9
+P 2350 4100
+F 0 "#PWR05" H 2350 4050 20  0001 C CNN
+F 1 "+12V" H 2350 4200 30  0000 C CNN
+	1    2350 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR06
+U 1 1 4EFDD5A6
+P 2600 3350
+F 0 "#PWR06" H 2600 3350 30  0001 C CNN
+F 1 "GND" H 2600 3280 30  0001 C CNN
+	1    2600 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR07
+U 1 1 4EFDD5A5
+P 2350 3400
+F 0 "#PWR07" H 2350 3490 20  0001 C CNN
+F 1 "+5V" H 2350 3490 30  0000 C CNN
+	1    2350 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L +3.3V #PWR08
+U 1 1 4EFDD5A4
+P 2350 3500
+F 0 "#PWR08" H 2350 3460 30  0001 C CNN
+F 1 "+3.3V" H 2350 3610 30  0000 C CNN
+	1    2350 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L +12V #PWR09
+U 1 1 4EFDD5A3
+P 2350 3600
+F 0 "#PWR09" H 2350 3550 20  0001 C CNN
+F 1 "+12V" H 2350 3700 30  0000 C CNN
+	1    2350 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L +12V #PWR010
+U 1 1 4EFDD597
+P 2350 2850
+F 0 "#PWR010" H 2350 2800 20  0001 C CNN
+F 1 "+12V" H 2350 2950 30  0000 C CNN
+	1    2350 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L +3.3V #PWR011
+U 1 1 4EFDD596
+P 2350 2750
+F 0 "#PWR011" H 2350 2710 30  0001 C CNN
+F 1 "+3.3V" H 2350 2860 30  0000 C CNN
+	1    2350 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L +5V #PWR012
+U 1 1 4EFDD595
+P 2350 2650
+F 0 "#PWR012" H 2350 2740 20  0001 C CNN
+F 1 "+5V" H 2350 2740 30  0000 C CNN
+	1    2350 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR013
+U 1 1 4EFDD594
+P 2600 2600
+F 0 "#PWR013" H 2600 2600 30  0001 C CNN
+F 1 "GND" H 2600 2530 30  0001 C CNN
+	1    2600 2600
+	1    0    0    -1  
+$EndComp
+Text Label 2550 1350 0    60   ~ 0
+WSGPIO
+Text Label 2550 1550 0    60   ~ 0
+WSSCL
+Text Label 2550 1650 0    60   ~ 0
+WSSDA
+$Comp
+L GND #PWR014
+U 1 1 4EFDD51C
+P 2600 1800
+F 0 "#PWR014" H 2600 1800 30  0001 C CNN
+F 1 "GND" H 2600 1730 30  0001 C CNN
+	1    2600 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR015
+U 1 1 4EFDD519
+P 2350 1850
+F 0 "#PWR015" H 2350 1940 20  0001 C CNN
+F 1 "+5V" H 2350 1940 30  0000 C CNN
+	1    2350 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L +3.3V #PWR016
+U 1 1 4EFDD512
+P 2350 1950
+F 0 "#PWR016" H 2350 1910 30  0001 C CNN
+F 1 "+3.3V" H 2350 2060 30  0000 C CNN
+	1    2350 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L +12V #PWR017
+U 1 1 4EFDD50A
+P 2350 2050
+F 0 "#PWR017" H 2350 2000 20  0001 C CNN
+F 1 "+12V" H 2350 2150 30  0000 C CNN
+	1    2350 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_3 STROBE1
+U 1 1 4EFDD4DA
+P 1850 4000
+F 0 "STROBE1" V 1800 4000 50  0000 C CNN
+F 1 "CONN_3" V 1900 4000 40  0000 C CNN
+	1    1850 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_6 ET2
+U 1 1 4EFDD4AD
+P 1850 3350
+F 0 "ET2" V 1800 3350 60  0000 C CNN
+F 1 "ET" V 1900 3350 60  0000 C CNN
+	1    1850 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_6 ET1
+U 1 1 4EFDD48F
+P 1850 2600
+F 0 "ET1" V 1800 2600 60  0000 C CNN
+F 1 "ET" V 1900 2600 60  0000 C CNN
+	1    1850 2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_8 WSB1
+U 1 1 4EFDD45A
+P 1850 1700
+F 0 "WSB1" V 1800 1700 60  0000 C CNN
+F 1 "WSB" V 1900 1700 60  0000 C CNN
+	1    1850 1700
+	-1   0    0    1   
+$EndComp
+$Comp
+L ARDUINO_MEGA_SHIELD SHIELD1
+U 1 1 4EFDD362
+P 8100 3900
+F 0 "SHIELD1" H 7700 6400 60  0000 C CNN
+F 1 "ARDUINO_MEGA_SHIELD" H 8000 1200 60  0000 C CNN
+	1    8100 3900
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

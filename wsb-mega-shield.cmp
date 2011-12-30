@@ -1,0 +1,73 @@
+Cmp-Mod V01 Created by CvPcb (2011-oct-27)-testing date = Fri 30 Dec 2011 10:58:00 AM EST
+
+BeginCmp
+TimeStamp = /4EFDD48F;
+Reference = ET1;
+ValeurCmp = ET;
+IdModule  = SIL-6;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EFDD4AD;
+Reference = ET2;
+ValeurCmp = ET;
+IdModule  = SIL-6;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EFDDE62;
+Reference = JP1;
+ValeurCmp = JUMPER-2SMD-NO;
+IdModule  = SparkFun-SJ_2S;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EFDDD42;
+Reference = JP2;
+ValeurCmp = JUMPER-3SMD;
+IdModule  = SparkFun-SJ_3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EFDDD34;
+Reference = JP3;
+ValeurCmp = JUMPER-3SMD;
+IdModule  = SparkFun-SJ_3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EFDDD82;
+Reference = JP4;
+ValeurCmp = JUMPER-3SMD;
+IdModule  = SparkFun-SJ_3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EFDDD88;
+Reference = JP5;
+ValeurCmp = JUMPER-3SMD;
+IdModule  = SparkFun-SJ_3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EFDD362;
+Reference = SHIELD1;
+ValeurCmp = ARDUINO_MEGA_SHIELD;
+IdModule  = SEEDUINO_MEGA_SHIELD_040pins;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EFDD4DA;
+Reference = STROBE1;
+ValeurCmp = CONN_3;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EFDD45A;
+Reference = WSB1;
+ValeurCmp = WSB;
+IdModule  = SIL-8;
+EndCmp
+
+EndListe
