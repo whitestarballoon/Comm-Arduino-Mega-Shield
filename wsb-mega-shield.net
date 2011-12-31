@@ -1,5 +1,9 @@
-# EESchema Netlist Version 1.1 created  Fri 30 Dec 2011 10:58:00 AM EST
+# EESchema Netlist Version 1.1 created  Fri 30 Dec 2011 08:02:54 PM EST
 (
+ ( /4EFE5F1F SM0805 C1 C
+  ( 1 GND )
+  ( 2 +3.3V )
+ )
  ( /4EFDD48F SIL-6 ET1 ET
   ( 1 +12V )
   ( 2 +3.3V )
@@ -18,7 +22,7 @@
  )
  ( /4EFDDE62 SparkFun-SJ_2S JP1 JUMPER-2SMD-NO
   ( 1 +12V )
-  ( 2 N-000084 )
+  ( 2 N-000085 )
  )
  ( /4EFDDD42 SparkFun-SJ_3 JP2 JUMPER-3SMD
   ( 1 /ET1RXOLD )
@@ -39,6 +43,21 @@
   ( 1 /ET2TXOLD )
   ( 2 /ET2TX )
   ( 3 /ET2TXNEW )
+ )
+ ( /4EFE5E44 SparkFun-SJ_3 JP6 JUMPER-3SMD
+  ( 1 GND )
+  ( 2 N-000082 )
+  ( 3 +3.3V )
+ )
+ ( /4EFE5E4A SparkFun-SJ_3 JP7 JUMPER-3SMD
+  ( 1 GND )
+  ( 2 N-000086 )
+  ( 3 +3.3V )
+ )
+ ( /4EFE5E26 SparkFun-SJ_3 JP8 JUMPER-3SMD
+  ( 1 GND )
+  ( 2 N-000087 )
+  ( 3 +3.3V )
  )
  ( /4EFDD362 SEEDUINO_MEGA_SHIELD_040pins SHIELD1 ARDUINO_MEGA_SHIELD
   ( 0 ? )
@@ -122,12 +141,22 @@
   ( GND4 ? )
   ( GND5 ? )
   ( RST ? )
-  ( V_IN N-000084 )
+  ( V_IN N-000085 )
  )
  ( /4EFDD4DA SIL-3 STROBE1 CONN_3
   ( 1 +12V )
   ( 2 GND )
   ( 3 /STIO )
+ )
+ ( /4EFE5DA4 SO8E U1 EEPROM-I2CSMD
+  ( 1 N-000086 )
+  ( 2 N-000082 )
+  ( 3 N-000087 )
+  ( 4 GND )
+  ( 5 /WSSDA )
+  ( 6 /WSSCL )
+  ( 7 GND )
+  ( 8 +3.3V )
  )
  ( /4EFDD45A SIL-8 WSB1 WSB
   ( 1 +12V )
@@ -141,3 +170,11 @@
  )
 )
 *
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$endfootprintlist
+}

@@ -1,4 +1,11 @@
-Cmp-Mod V01 Created by CvPcb (2011-oct-27)-testing date = Fri 30 Dec 2011 10:58:00 AM EST
+Cmp-Mod V01 Created by CvPcb (2011-oct-27)-testing date = Fri 30 Dec 2011 08:02:54 PM EST
+
+BeginCmp
+TimeStamp = /4EFE5F1F;
+Reference = C1;
+ValeurCmp = C;
+IdModule  = SM0805;
+EndCmp
 
 BeginCmp
 TimeStamp = /4EFDD48F;
@@ -50,6 +57,27 @@ IdModule  = SparkFun-SJ_3;
 EndCmp
 
 BeginCmp
+TimeStamp = /4EFE5E44;
+Reference = JP6;
+ValeurCmp = JUMPER-3SMD;
+IdModule  = SparkFun-SJ_3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EFE5E4A;
+Reference = JP7;
+ValeurCmp = JUMPER-3SMD;
+IdModule  = SparkFun-SJ_3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EFE5E26;
+Reference = JP8;
+ValeurCmp = JUMPER-3SMD;
+IdModule  = SparkFun-SJ_3;
+EndCmp
+
+BeginCmp
 TimeStamp = /4EFDD362;
 Reference = SHIELD1;
 ValeurCmp = ARDUINO_MEGA_SHIELD;
@@ -61,6 +89,13 @@ TimeStamp = /4EFDD4DA;
 Reference = STROBE1;
 ValeurCmp = CONN_3;
 IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EFE5DA4;
+Reference = U1;
+ValeurCmp = EEPROM-I2CSMD;
+IdModule  = SO8E;
 EndCmp
 
 BeginCmp
