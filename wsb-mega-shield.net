@@ -1,133 +1,154 @@
-# EESchema Netlist Version 1.1 created  Fri 30 Dec 2011 08:02:54 PM EST
+# EESchema Netlist Version 1.1 created  Fri 30 Dec 2011 11:05:09 PM EST
 (
- ( /4EFE5F1F SM0805 C1 C
-  ( 1 GND )
-  ( 2 +3.3V )
+ ( /4EFE5F1F $noname  C1 C {Lib=C}
+  (    1 GND )
+  (    2 +3.3V )
  )
- ( /4EFDD48F SIL-6 ET1 ET
-  ( 1 +12V )
-  ( 2 +3.3V )
-  ( 3 +5V )
-  ( 4 GND )
-  ( 5 /ET1TX )
-  ( 6 /ET1RX )
+ ( /4EFE5E4A SparkFun-SJ_3  JP7 JUMPER-3SMD {Lib=JUMPER-3SMD}
+  (    1 GND )
+  (    2 N-000084 )
+  (    3 +3.3V )
  )
- ( /4EFDD4AD SIL-6 ET2 ET
-  ( 1 +12V )
-  ( 2 +3.3V )
-  ( 3 +5V )
-  ( 4 GND )
-  ( 5 /ET2TX )
-  ( 6 /ET2RX )
+ ( /4EFE5E44 SparkFun-SJ_3  JP6 JUMPER-3SMD {Lib=JUMPER-3SMD}
+  (    1 GND )
+  (    2 N-000086 )
+  (    3 +3.3V )
  )
- ( /4EFDDE62 SparkFun-SJ_2S JP1 JUMPER-2SMD-NO
-  ( 1 +12V )
-  ( 2 N-000085 )
+ ( /4EFE5E26 SparkFun-SJ_3  JP8 JUMPER-3SMD {Lib=JUMPER-3SMD}
+  (    1 GND )
+  (    2 N-000085 )
+  (    3 +3.3V )
  )
- ( /4EFDDD42 SparkFun-SJ_3 JP2 JUMPER-3SMD
-  ( 1 /ET1RXOLD )
-  ( 2 /ET1RX )
-  ( 3 /ET1RXNEW )
+ ( /4EFE5DA4 $noname  U1 EEPROM-I2CSMD {Lib=EEPROM-I2CSMD}
+  (    1 N-000084 )
+  (    2 N-000086 )
+  (    3 N-000085 )
+  (    4 GND )
+  (    5 /WSSDA )
+  (    6 /WSSCL )
+  (    7 GND )
+  (    8 +3.3V )
  )
- ( /4EFDDD34 SparkFun-SJ_3 JP3 JUMPER-3SMD
-  ( 1 /ET1TXOLD )
-  ( 2 /ET1TX )
-  ( 3 /ET1TXNEW )
+ ( /4EFDDD88 SparkFun-SJ_3  JP5 JUMPER-3SMD {Lib=JUMPER-3SMD}
+  (    1 /ET2TXOLD )
+  (    2 /ET2TX )
+  (    3 /ET2TXNEW )
  )
- ( /4EFDDD82 SparkFun-SJ_3 JP4 JUMPER-3SMD
-  ( 1 /ET2RXOLD )
-  ( 2 /ET2RX )
-  ( 3 /ET2RXNEW )
+ ( /4EFDDD82 SparkFun-SJ_3  JP4 JUMPER-3SMD {Lib=JUMPER-3SMD}
+  (    1 /ET2RXOLD )
+  (    2 /ET2RX )
+  (    3 /ET2RXNEW )
  )
- ( /4EFDDD88 SparkFun-SJ_3 JP5 JUMPER-3SMD
-  ( 1 /ET2TXOLD )
-  ( 2 /ET2TX )
-  ( 3 /ET2TXNEW )
+ ( /4EFDDD42 SparkFun-SJ_3  JP2 JUMPER-3SMD {Lib=JUMPER-3SMD}
+  (    1 /ET1RXOLD )
+  (    2 /ET1RX )
+  (    3 /ET1RXNEW )
  )
- ( /4EFE5E44 SparkFun-SJ_3 JP6 JUMPER-3SMD
-  ( 1 GND )
-  ( 2 N-000082 )
-  ( 3 +3.3V )
+ ( /4EFDDD34 SparkFun-SJ_3  JP3 JUMPER-3SMD {Lib=JUMPER-3SMD}
+  (    1 /ET1TXOLD )
+  (    2 /ET1TX )
+  (    3 /ET1TXNEW )
  )
- ( /4EFE5E4A SparkFun-SJ_3 JP7 JUMPER-3SMD
-  ( 1 GND )
-  ( 2 N-000086 )
-  ( 3 +3.3V )
+ ( /4EFDD4DA $noname  STROBE1 CONN_3 {Lib=CONN_3}
+  (    1 +12V )
+  (    2 GND )
+  (    3 /STIO )
  )
- ( /4EFE5E26 SparkFun-SJ_3 JP8 JUMPER-3SMD
-  ( 1 GND )
-  ( 2 N-000087 )
-  ( 3 +3.3V )
+ ( /4EFDD4AD $noname  ET2 ET {Lib=CONN_6}
+  (    1 +12V )
+  (    2 +3.3V )
+  (    3 +5V )
+  (    4 GND )
+  (    5 /ET2TX )
+  (    6 /ET2RX )
  )
- ( /4EFDD362 SEEDUINO_MEGA_SHIELD_040pins SHIELD1 ARDUINO_MEGA_SHIELD
-  ( 0 ? )
-  ( 1 ? )
-  ( 2 ? )
-  ( 3 ? )
-  ( 3V3 ? )
-  ( 4 ? )
-  ( 5 ? )
-  ( 5V ? )
+ ( /4EFDD48F $noname  ET1 ET {Lib=CONN_6}
+  (    1 +12V )
+  (    2 +3.3V )
+  (    3 +5V )
+  (    4 GND )
+  (    5 /ET1TX )
+  (    6 /ET1RX )
+ )
+ ( /4EFDD45A $noname  WSB1 WSB {Lib=CONN_8}
+  (    1 +12V )
+  (    2 +3.3V )
+  (    3 +5V )
+  (    4 GND )
+  (    5 /WSSDA )
+  (    6 /WSSCL )
+  (    7 GND )
+  (    8 ? )
+ )
+ ( /4EFDD362 $noname  SHIELD1 ARDUINO_MEGA_SHIELD {Lib=ARDUINO_MEGA_SHIELD}
+  (    0 ? )
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (   5V ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 /STIO )
+  (   13 ? )
+  (   14 /ET2RXNEW )
+  (   15 /ET2TXNEW )
+  (   16 /ET1RXNEW )
+  (   17 /ET1TXNEW )
+  (   18 ? )
+  (   19 ? )
+  (   20 /WSSDA )
+  (   21 /WSSCL )
+  (   22 ? )
+  (   23 ? )
+  (   24 ? )
+  (   25 ? )
+  (   26 ? )
+  (   27 ? )
+  (   28 ? )
+  (   29 ? )
+  (   30 ? )
+  (   31 ? )
+  (   32 ? )
+  (   33 ? )
+  (   34 ? )
+  (   35 ? )
+  (   36 ? )
+  (   37 ? )
+  (   38 ? )
+  (   39 ? )
+  (   40 ? )
+  (   41 ? )
+  (   42 ? )
+  (   43 ? )
+  (   44 ? )
+  (   45 ? )
+  (   46 ? )
+  (   47 ? )
+  (   48 ? )
+  (   49 ? )
+  (   50 ? )
+  (   51 ? )
+  (   52 ? )
+  (   53 ? )
+  (  3V3 ? )
   ( 5V_4 ? )
   ( 5V_5 ? )
-  ( 6 ? )
-  ( 7 ? )
-  ( 8 ? )
-  ( 9 ? )
-  ( 10 ? )
-  ( 11 ? )
-  ( 12 /STIO )
-  ( 13 ? )
-  ( 14 /ET2RXNEW )
-  ( 15 /ET2TXNEW )
-  ( 16 /ET1RXNEW )
-  ( 17 /ET1TXNEW )
-  ( 18 ? )
-  ( 19 ? )
-  ( 20 /WSSDA )
-  ( 21 /WSSCL )
-  ( 22 ? )
-  ( 23 ? )
-  ( 24 ? )
-  ( 25 ? )
-  ( 26 ? )
-  ( 27 ? )
-  ( 28 ? )
-  ( 29 ? )
-  ( 30 ? )
-  ( 31 ? )
-  ( 32 ? )
-  ( 33 ? )
-  ( 34 ? )
-  ( 35 ? )
-  ( 36 ? )
-  ( 37 ? )
-  ( 38 ? )
-  ( 39 ? )
-  ( 40 ? )
-  ( 41 ? )
-  ( 42 ? )
-  ( 43 ? )
-  ( 44 ? )
-  ( 45 ? )
-  ( 46 ? )
-  ( 47 ? )
-  ( 48 ? )
-  ( 49 ? )
-  ( 50 ? )
-  ( 51 ? )
-  ( 52 ? )
-  ( 53 ? )
-  ( AD0 /ET2RXOLD )
-  ( AD1 /ET2TXOLD )
-  ( AD2 /ET1RXOLD )
-  ( AD3 /ET1TXOLD )
-  ( AD4 /WSSDA )
-  ( AD5 /WSSCL )
-  ( AD6 ? )
-  ( AD7 ? )
-  ( AD8 ? )
-  ( AD9 ? )
+  (  AD0 /ET2RXOLD )
+  (  AD1 /ET2TXOLD )
+  (  AD2 /ET1RXOLD )
+  (  AD3 /ET1TXOLD )
+  (  AD4 /WSSDA )
+  (  AD5 /WSSCL )
+  (  AD6 ? )
+  (  AD7 ? )
+  (  AD8 ? )
+  (  AD9 ? )
   ( AD10 /WSSCL )
   ( AD11 /WSSDA )
   ( AD12 ? )
@@ -140,33 +161,8 @@
   ( GND3 GND )
   ( GND4 ? )
   ( GND5 ? )
-  ( RST ? )
-  ( V_IN N-000085 )
- )
- ( /4EFDD4DA SIL-3 STROBE1 CONN_3
-  ( 1 +12V )
-  ( 2 GND )
-  ( 3 /STIO )
- )
- ( /4EFE5DA4 SO8E U1 EEPROM-I2CSMD
-  ( 1 N-000086 )
-  ( 2 N-000082 )
-  ( 3 N-000087 )
-  ( 4 GND )
-  ( 5 /WSSDA )
-  ( 6 /WSSCL )
-  ( 7 GND )
-  ( 8 +3.3V )
- )
- ( /4EFDD45A SIL-8 WSB1 WSB
-  ( 1 +12V )
-  ( 2 +3.3V )
-  ( 3 +5V )
-  ( 4 GND )
-  ( 5 /WSSDA )
-  ( 6 /WSSCL )
-  ( 7 GND )
-  ( 8 ? )
+  (  RST ? )
+  ( V_IN +12V )
  )
 )
 *
@@ -178,3 +174,100 @@ $component C1
 $endlist
 $endfootprintlist
 }
+{ Pin List by Nets
+Net 1 "+5V" "+5V"
+ ET2 3
+ WSB1 3
+ ET1 3
+Net 7 "/WSSCL" "WSSCL"
+ SHIELD1 AD10
+ U1 6
+ SHIELD1 AD5
+ WSB1 6
+ SHIELD1 21
+Net 8 "/WSSDA" "WSSDA"
+ SHIELD1 AD11
+ U1 5
+ SHIELD1 20
+ SHIELD1 AD4
+ WSB1 5
+Net 9 "GND" "GND"
+ U1 7
+ U1 4
+ JP7 1
+ SHIELD1 GND3
+ SHIELD1 GND1
+ SHIELD1 GND2
+ JP8 1
+ ET1 4
+ WSB1 4
+ WSB1 7
+ JP6 1
+ STROBE1 2
+ ET2 4
+ C1 1
+Net 10 "+3.3V" "+3.3V"
+ JP6 3
+ JP7 3
+ ET2 2
+ C1 2
+ WSB1 2
+ JP8 3
+ U1 8
+ ET1 2
+Net 11 "+12V" "+12V"
+ SHIELD1 V_IN
+ ET2 1
+ STROBE1 1
+ WSB1 1
+ ET1 1
+Net 12 "/ET2RX" "ET2RX"
+ JP4 2
+ ET2 6
+Net 13 "/STIO" "STIO"
+ STROBE1 3
+ SHIELD1 12
+Net 18 "/ET1TXOLD" "ET1TXOLD"
+ SHIELD1 AD3
+ JP3 1
+Net 19 "/ET1RXOLD" "ET1RXOLD"
+ JP2 1
+ SHIELD1 AD2
+Net 20 "/ET2RXOLD" "ET2RXOLD"
+ SHIELD1 AD0
+ JP4 1
+Net 63 "/ET1TXNEW" "ET1TXNEW"
+ JP3 3
+ SHIELD1 17
+Net 67 "/ET1RXNEW" "ET1RXNEW"
+ SHIELD1 16
+ JP2 3
+Net 71 "/ET2TXNEW" "ET2TXNEW"
+ JP5 3
+ SHIELD1 15
+Net 74 "/ET2RXNEW" "ET2RXNEW"
+ SHIELD1 14
+ JP4 3
+Net 80 "/ET2TXOLD" "ET2TXOLD"
+ JP5 1
+ SHIELD1 AD1
+Net 81 "/ET2TX" "ET2TX"
+ ET2 5
+ JP5 2
+Net 82 "/ET1TX" "ET1TX"
+ ET1 5
+ JP3 2
+Net 83 "/ET1RX" "ET1RX"
+ ET1 6
+ JP2 2
+Net 84 "" ""
+ JP7 2
+ U1 1
+Net 85 "" ""
+ U1 3
+ JP8 2
+Net 86 "" ""
+ JP6 2
+ U1 2
+}
+#End
